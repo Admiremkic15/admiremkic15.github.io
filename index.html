@@ -1,136 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional profile of an experienced banking professional specializing in customer service, relationship building, and financial services.">
-  <title>Admir Emkic | Banking Professional</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      background: #f7f7f7;
-      color: #222;
-    }
-    header {
-      background: #fff;
-      padding: 70px 20px 55px;
-      text-align: center;
-      border-bottom: 1px solid #ddd;
-    }
-    header h1 { margin: 0 0 10px; font-size: 42px; }
-    header p { margin: 0; font-size: 20px; color: #555; }
-    main { max-width: 850px; margin: 35px auto; padding: 0 20px; }
-    section {
-      background: #fff;
-      margin-bottom: 25px;
-      padding: 30px;
-      border: 1px solid #e2e2e2;
-      border-radius: 10px;
-    }
-    h2 { margin-top: 0; font-size: 25px; }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .skill {
-      padding: 8px 12px;
-      border: 1px solid #ccc;
-      border-radius: 20px;
-      background: #fafafa;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      color: #666;
-      font-size: 14px;
-    }
-    a { color: #175ea8; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Admir Emkic, banking professional with nearly 12 years of experience in customer service, relationship building, and banking operations.">
+<title>Admir Emkic | Banking Professional</title>
+<style>
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #243047;
+  background: #f3f6fb;
+}
+header {
+  background: #102747;
+  color: white;
+  padding: 65px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: clamp(2.3rem, 7vw, 3.5rem);
+  margin: 0 0 12px;
+  line-height: 1.2;
+}
+header p {
+  color: #dce8f7;
+  font-size: 1.05rem;
+  max-width: 700px;
+  margin: 10px auto;
+}
+.location { font-size: .95rem; margin-top: 18px; }
+nav {
+  background: white;
+  padding: 14px 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 8px #10274712;
+}
+nav a {
+  display: inline-block;
+  color: #102747;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 4px 9px;
+}
+main {
+  max-width: 950px;
+  margin: 35px auto;
+  padding: 0 18px;
+}
+section {
+  background: white;
+  border-radius: 14px;
+  padding: 28px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 18px #1027470b;
+  scroll-margin-top: 85px;
+}
+h2 {
+  color: #102747;
+  font-size: 1.65rem;
+  margin-top: 0;
+  border-bottom: 2px solid #e6edf6;
+  padding-bottom: 12px;
+}
+h3 { color: #183d68; margin-bottom: 4px; }
+.subtitle { color: #627086; margin-top: 0; }
+.skills { display: flex; flex-wrap: wrap; gap: 10px; }
+.skills span {
+  background: #eaf1fa;
+  color: #183d68;
+  padding: 8px 13px;
+  border-radius: 20px;
+  font-size: .92rem;
+}
+.job {
+  border-left: 4px solid #2875c7;
+  padding-left: 18px;
+  margin: 20px 0;
+}
+.contact-button {
+  display: inline-block;
+  background: #2875c7;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  margin: 8px 8px 0 0;
+}
+footer {
+  background: #102747;
+  color: #dce8f7;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: .9rem;
+}
+@media (max-width: 600px) {
+  header { padding: 48px 18px; }
+  section { padding: 22px 18px; }
+  nav a { margin: 4px 6px; }
+}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Admir Emkic</h1>
-    <p>Banking Professional | Customer Service | Relationship Building | Financial Services</p>
-    <p>Mechanicsburg, Pennsylvania</p>
-  </header>
+<header>
+  <h1>Admir Emkic</h1>
+  <p>Banking &amp; Financial Services Professional</p>
+  <p>Customer Service · Relationship Building · Problem Solving</p>
+  <div class="location">Mechanicsburg, Pennsylvania</div>
+</header>
 
-  <main>
-    <section>
-      <h2>Professional Summary</h2>
-      <p>
-        Experienced banking professional with nearly 12 years of experience in financial
-        services and customer-facing roles. Strong background in customer service,
-        relationship building, problem solving, communication, cash handling, payments,
-        and understanding customer needs.
-      </p>
-      <p>
-        I take a relationship-first approach to customer service—listening carefully,
-        understanding what customers need, explaining options clearly, and helping them
-        find appropriate solutions.
-      </p>
-      <p>
-        I am currently seeking opportunities in banking and financial services where I can
-        bring my experience, professionalism, and commitment to customer service to a new team.
-      </p>
-    </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-    <section>
-      <h2>Professional Experience</h2>
-      <h3>Banker — Wells Fargo</h3>
-      <p><em>October 2014 – May 2026 | Mechanicsburg, PA</em></p>
-      <ul>
-        <li>Provided personalized service and built strong customer relationships.</li>
-        <li>Assisted customers with everyday banking needs, transactions, payments, and account questions.</li>
-        <li>Identified customer needs and discussed appropriate banking products and services.</li>
-        <li>Resolved customer concerns through active listening, clear communication, and problem solving.</li>
-        <li>Handled cash and financial transactions accurately.</li>
-        <li>Supported branch operations and worked collaboratively with team members.</li>
-        <li>Maintained a professional and welcoming customer experience.</li>
-      </ul>
-    </section>
+<main>
+<section id="about">
+  <h2>Professional Summary</h2>
+  <p>Banking professional with nearly 12 years of experience in financial services and customer-facing roles. Experienced in building customer relationships, identifying needs, resolving concerns, handling transactions, and supporting daily banking operations.</p>
+  <p>Known for a customer-focused approach, clear communication, teamwork, and a commitment to providing helpful and professional service.</p>
+</section>
 
-    <section>
-      <h2>Core Skills</h2>
-      <div class="skills">
-        <span class="skill">Banking</span>
-        <span class="skill">Customer Service</span>
-        <span class="skill">Relationship Building</span>
-        <span class="skill">Financial Services</span>
-        <span class="skill">Client Support</span>
-        <span class="skill">Problem Solving</span>
-        <span class="skill">Communication</span>
-        <span class="skill">Cash Handling</span>
-        <span class="skill">Payments & Transactions</span>
-        <span class="skill">Account Management</span>
-        <span class="skill">Teamwork</span>
-      </div>
-    </section>
+<section id="experience">
+  <h2>Professional Experience</h2>
+  <div class="job">
+    <h3>Wells Fargo</h3>
+    <p class="subtitle">Banking and Customer Service | Mechanicsburg, Pennsylvania<br>October 2014 – May 2026</p>
+    <p>Progressed through banking roles, developing experience in customer service, relationship building, transaction processing, and daily branch operations.</p>
+    <ul>
+      <li>Built and maintained customer relationships by understanding individual needs.</li>
+      <li>Assisted customers with banking questions, transactions, and account-related concerns.</li>
+      <li>Communicated clearly and worked to resolve customer issues professionally.</li>
+      <li>Handled cash and payment transactions with attention to accuracy.</li>
+      <li>Supported team operations and helped maintain an effective branch environment.</li>
+    </ul>
+    <p><strong>Career progression:</strong> Teller → Lead Teller → Banker</p>
+  </div>
+</section>
 
-    <section>
-      <h2>Career Interests</h2>
-      <p>
-        Personal Banker • Relationship Banker • Universal Banker • Branch Banker •
-        Financial Services Representative • Client Service Representative
-      </p>
-    </section>
+<section id="skills">
+  <h2>Core Skills</h2>
+  <div class="skills">
+    <span>Customer Service</span>
+    <span>Relationship Building</span>
+    <span>Problem Solving</span>
+    <span>Communication</span>
+    <span>Cash Handling</span>
+    <span>Payment Processing</span>
+    <span>Banking Operations</span>
+    <span>Customer Needs Assessment</span>
+    <span>Teamwork</span>
+    <span>Organization</span>
+    <span>Attention to Detail</span>
+  </div>
+</section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>
-        For professional opportunities, please contact me at
-        <strong>aemkic15@gmail.com</strong>.
-      </p>
-      <p>
-        <a href="https://www.linkedin.com/in/admir-emkic/">LinkedIn Profile</a>
-      </p>
-    </section>
-  </main>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>I welcome opportunities to contribute my banking experience, customer service skills, and relationship-building abilities to a professional team.</p>
+  <p><a class="contact-button" href="mailto:aemkic15@gmail.com">Email Me</a></p>
+  <p class="subtitle">Email: aemkic15@gmail.com</p>
+</section>
+</main>
 
-  <footer>
-    © 2026 Admir Emkic
-  </footer>
+<footer>
+  <p>Admir Emkic | Banking &amp; Financial Services Professional</p>
+</footer>
 </body>
 </html>
